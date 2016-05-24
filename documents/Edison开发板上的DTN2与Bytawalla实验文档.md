@@ -258,6 +258,9 @@ cp -rf * /usr/lib/
 
 ./dtnd --init
 
+（13) 如需BPQ支持，生成编译文件时执行
+./configure --disable-ecl --disable-edp --with-bpq
+
 ### 九、配置adhoc模式 ###
 
 （1）建立如下内容的脚本，命名为wpacli\_ibss\_open.sh
